@@ -17,7 +17,8 @@ export default function Home() {
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
         
-      <Link href="/account-settings">Testing</Link>
+      <Link href="/account-settings">No Middleware Link</Link>
+      <Link href="/auth/account-settings">Middleware Link</Link>
       </main>
     </>
   )
